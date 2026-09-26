@@ -1,0 +1,17 @@
+{
+  "domain": "nubert_ble",
+  "name": "Nubert X-2",
+  "codeowners": ["@DatNoHand"],
+  "config_flow": true,
+  "dependencies": ["bluetooth"],
+  "documentation": "https://github.com/DatNoHand/nubert-ble-homeassistant",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/DatNoHand/nubert-ble-homeassistant/issues",
+  "requirements": ["bleak-retry-connector>=3.0.0"],
+  "bluetooth": [
+    {
+      "service_uuid": "8e2ceaaa-0e27-11e7-93ae-92361f002671"
+    }
+  ],
+  "version": "0.1.0"
+}

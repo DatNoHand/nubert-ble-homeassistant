@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "bluetooth_confirm": {
+        "description": "Do you want to set up {name}?"
+      },
+      "user": {
+        "data": {
+          "address": "Bluetooth MAC address"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  },
+  "entity": {
+    "number": {
+      "bass": { "name": "Bass" },
+      "mid_high": { "name": "Mid-High" },
+      "balance": { "name": "Balance" },
+      "highpass": { "name": "Highpass frequency" },
+      "sub_crossover": { "name": "Subwoofer crossover" },
+      "eq_band": { "name": "EQ band {band}" }
+    },
+    "switch": {
+      "loudness": { "name": "Loudness" },
+      "analog_gain": { "name": "Analog gain" }
+    },
+    "select": {
+      "preset": { "name": "Preset" },
+      "save_preset": { "name": "Save to preset" }
+    },
+    "button": {
+      "bt_pairing_mode": { "name": "Bluetooth pairing mode" }
+    }
+  }
+}
